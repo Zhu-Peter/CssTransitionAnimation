@@ -13,3 +13,42 @@
 
     background-color: red;
 }
+
+.keyframe {
+    width: 500px;
+    height: 500px;
+    margin-top: 10%;
+
+    padding: auto;
+
+    font-size: 60px;
+    text-align: center;
+    text-justify: auto;
+
+    background-color: orange;
+
+}
+.keyframe:hover {
+    
+    animation-name: Hello;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 8;
+}
+
+@keyframes Hello {
+    20% {
+        width: 600px;
+        background-color: red;
+    }
+    40% {
+        width: 700px;
+        font-size: 70px;
+        color: blue;
+    }
+    80% {
+        height: 700px;
+        font-size: 90px;
+        color: purple;
+    }
+}
