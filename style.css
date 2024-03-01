@@ -2,6 +2,10 @@
     width: 400px;
     height: 400px;
     background-color: blue;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
 }
 
 .square:hover {
